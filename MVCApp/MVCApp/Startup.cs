@@ -26,11 +26,6 @@ namespace MVCApp
                 app.UseDeveloperExceptionPage();
             }
 
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
-
             //Allows use for js and css files
             app.UseStaticFiles();
 
