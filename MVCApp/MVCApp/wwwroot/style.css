@@ -1,3 +1,30 @@
 ﻿body {
     background-color: #eeeeee;
 }
+
+table {
+    text-align: center;
+    table-layout: fixed;
+}
+
+th {
+    background-color: #305585;
+    color: #bfd5f2;
+}
+
+td {
+    padding: 10px;
+}
+tr {
+    height: 60px;
+}
+
+tr:nth-child(2n) {
+    background-color: #305585;
+    color: #bfd5f2;
+}
+
+tr:nth-child(2n+1) {
+    background-color: #84a1c8;
+    color: #183458;
+}
