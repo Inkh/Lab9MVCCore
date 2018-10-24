@@ -1,0 +1,46 @@
+﻿@model List<MVCApp.Models.PersonOfTheYear>
+
+@{
+    
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <title>People!</title>
+    <link href="/style.css" rel="stylesheet" />
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>Honor</th>
+                <th>Name</th>
+                <th>Country</th>
+                <th>Birth Year</th>
+                <th>Death Year</th>
+                <th>Title</th>
+                <th>Category</th>
+                <th>Context</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(MVCApp.Models.PersonOfTheYear person in Model)
+            {
+                <tr>
+                    <td>@person.Year</td>
+                    <td>@person.Honor</td>
+                    <td>@person.Name</td>
+                    <td>@person.Country</td>
+                    <td>@person.Birth_Year</td>
+                    <td>@person.DeathYear</td>
+                    <td>@person.Title</td>
+                    <td>@person.Category</td>
+                    <td>@person.Context</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
+}
+

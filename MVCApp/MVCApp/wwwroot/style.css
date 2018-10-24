@@ -1,0 +1,55 @@
+﻿body {
+    background-color: #eeeeee;
+    font-family: sans-serif;
+}
+
+table {
+    text-align: center;
+    table-layout: fixed;
+}
+
+th {
+    background-color: #305585;
+    color: #bfd5f2;
+}
+
+td {
+    padding: 10px;
+}
+tr {
+    height: 60px;
+}
+
+tr:nth-child(2n) {
+    background-color: #305585;
+    color: #bfd5f2;
+}
+
+tr:nth-child(2n+1) {
+    background-color: #84a1c8;
+    color: #183458;
+}
+
+.form {
+    margin: 0 auto;
+    background-color: #ffffff;
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    box-shadow: 1px 2px 3px;
+}
+
+h1 {
+    text-align:center;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+}
+
+.button {
+    margin: 20px;
+    text-align: center;
+}
