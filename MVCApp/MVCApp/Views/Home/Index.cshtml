@@ -1,15 +1,21 @@
-﻿@{
-    var name = "Jeffe";
-}
+﻿
+<h1>Search for Something!</h1>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Search For People Of the Year!</title>
+    <link href="/style.css" rel="stylesheet" />
+</head>
+<body>
+    <form class="form" method="post">
+        <label for="begYear">Beginning Year</label>
+        <input type="text" name="begYear" />
 
-<h1>My name @name</h1>
+        <label for="endYear">Ending Year</label>
+        <input type="text" name="endYear" />
 
-<form method="post">
-    <label for="begYear">Beginning Year</label>
-    <input type="text" name="begYear" />
-
-    <label for="endYear">Ending Year</label>
-    <input type="text" name="endYear" />
-
-    <button>Search!</button>
-</form>
+        <div class="button">
+            <button>Search!</button>
+        </div>
+    </form>
+</body>
+</html>
